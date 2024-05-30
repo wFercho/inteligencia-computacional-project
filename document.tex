@@ -1,4 +1,4 @@
-              
+
 %% bare_jrnl.tex
 %% V1.4b
 %% 2015/08/26
@@ -350,8 +350,11 @@
 	% correct bad hyphenation here
 	\hyphenation{op-tical net-works semi-conduc-tor}
 	
-	
+		\usepackage{graphicx}
+	\graphicspath{ {./imgs/} }
 	\begin{document}
+		
+	
 		%
 		% paper title
 		% Titles are generally capitalized except for words such as a, an, and, as,
@@ -641,23 +644,61 @@
 	\end{itemize}
 	
 	\section{LLMs identificados}
-	\begin{itemize}
-		\item GTP-1
-		\item GTP-2
-		\item GTP-3
-		\item GTP-4
-		\item Megatron-LM
-		\item PaLM
-		\item LaMDA
-		\item GPT-Neo
-		\item GPT-J
-		\item BERT
-		\item RoBERTa
-		\item T5
-		\item DistilBERT
-	\end{itemize}
+	%\begin{itemize}
+		%\item GTP-1
+		%\item GTP-2
+		%\item GTP-3
+		%\item GTP-4
+		%\item Megatron-LM
+		%\item PaLM
+		%\item LaMDA
+		%\item GPT-Neo
+		%\item GPT-J
+	%	\item BERT
+%		\item RoBERTa
+		%\item T5
+	%	\item DistilBERT
+%	\end{itemize}
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\textbf{Modelo} & \textbf{Capacidad de Tokenización (Límite de Contexto)} & \textbf{Tipo}       & \textbf{Número de Parámetros} \\ \hline
+		GPT-1           & 512 tokens                                              & Pago                & 117M                         \\ \hline
+		GPT-2           & 1024 tokens                                             & Código libre        & 1.5B                         \\ \hline
+		GPT-3           & 2048 tokens                                             & Pago                & 175B                         \\ \hline
+		GPT-4           & Hasta 8192 tokens o más, dependiendo de la configuración & Pago                & 175B+                        \\ \hline
+		Megatron-LM     & 2048 tokens                                             & Código libre        & 8.3B                         \\ \hline
+		PaLM            & 2048 tokens                                             & Pago                & 540B                         \\ \hline
+		LaMDA           & Hasta 2048 tokens                                       & Pago                & 137B                         \\ \hline
+		GPT-Neo         & 2048 tokens                                             & Código libre        &1.3B y 2.7B                         \\ \hline
+		GPT-J           & 2048 tokens                                             & Código libre        & 6B                           \\ \hline
+		BERT            & 512 tokens                                              & Código libre        & 110M                         \\ \hline
+		RoBERTa         & 512 tokens                                              & Código libre        & 355M                         \\ \hline
+		T5              & 512 tokens                                              & Código libre        & 11B                          \\ \hline
+		DistilBERT      & 512 tokens                                              & Código libre        & 66M                          \\ \hline
+	\end{tabular}
+	\caption{Capacidad de Tokenización, Tipo y Número de Parámetros de LLMs identificados}
+	\label{tab:tokenization}
+\end{table}
 	\section{Comparativa inicial entre LLMs seleccionados}
 	\subsection{GPT-Neo}
+	"Hace 6 años, estaba volando sobre el desierto del Sahara y se estropeó el motor de mi avión. Estaba completamente solo."
+	\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{gptneo_1}
+	\caption{Ejemplo GPT-Neo}
+	\small
+	%Fuente: Autor
+\end{figure}
+	\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.5]{gptneo_2}
+	\caption{Ejemplo GPT-Neo}
+	\small
+	%Fuente: Autor
+\end{figure}
 	\subsection{T5}
 	\section{Comparativa mediante ejercicios entre LLMs seleccionados }
 	\section{Fuentes de datos seleccionados}
