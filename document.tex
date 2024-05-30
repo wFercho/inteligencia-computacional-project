@@ -643,7 +643,7 @@
 		\item Control de Versiones: Git y GitHub.
 	\end{itemize}
 	
-	\section{LLMs identificados}
+	%\section{LLMs identificados}
 	%\begin{itemize}
 		%\item GTP-1
 		%\item GTP-2
@@ -700,19 +700,29 @@
 	%Fuente: Autor
 \end{figure}
 	\subsection{T5}
+	
+	Para comenzar debemos saber acerca de T5, de sus siglas en ingles T5 (Text-to-Text Transfer Transformer) es un modelo de lenguaje grande (LLM) desarrollado por Google AI, entrenado en un conjunto de datos masivo de texto y código. A diferencia de los LLM tradicionales que se enfocan en tareas específicas, T5 está diseñado para ser un modelo de propósito general que puede realizar una amplia gama de tareas de procesamiento de lenguaje natural (PLN) \cite{tsay2022t5}, incluyendo: traducción automatica, resumen de textos, respuestas a preguntas, generación de texto creativo. T5 esta soportado en arquitectura de transformer que permite al modelo aprender relaciones entre palabras a lo largo de una frase u oración.
+	
+	Para esta prueba se realiza una pratica sencilla con el fin de poder determinar que tan viable sería su uso al resolver las dos tareas en cuestión, la caracterización de personajes y la genreación de libretos para los cortometrajes.
+	
+	Como primera prueba se implementa un modelo "t5-base", en donde se ingresa un fragmento del cuento "El gato con botas" en ingles, añadiendo un prompt que especifique generar la caractezizacion de los personajes que aparezce en el fragmento dado, como se observa en la Figura \ref{fig:fig-3}
+	
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.5]{t5test1}
 		\caption{Ejemplo caracterizacion de personajes T5.}
 		\small
+		\label{fig:fig-3}
 %Fuente: Autor
 	\end{figure}
 	
+	Ahora para comprobar el modelo "t5-base" en la generación de libretos, se utiliza la misma estructura del modelo anterior, ingresando un fragmento de un dialogo en español con prompt especificando que convierta el dialogo en un libreto para una obra de arte corta, como de muestra en la Figura \ref{fig:fig-4}.
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=0.5]{t5test2}
 		\caption{Ejemplo generación libreto T5.}
 		\small
+		\label{fig:fig-4}
 		%Fuente: Autor
 	\end{figure}
 	
