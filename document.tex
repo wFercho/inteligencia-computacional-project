@@ -436,6 +436,8 @@
 		The abstract goes here.
 	\end{abstract}
 	
+	
+	
 	% Note that keywords are not normally used for peerreview papers.
 	\begin{IEEEkeywords}
 		LLM, AI
@@ -474,7 +476,11 @@
 	% 
 	% Here we have the typical use of a "T" for an initial drop letter
 	% and "HIS" in caps to complete the first word.
-	\IEEEPARstart{L}{os} Modelos de Lenguaje Largo o Extenso, de su traducción en sus siglas en inglés LLMs (Language Large Models), han permitido evidenciar la capacidad potencial de generar texto o contenido para diferentes tareas. Contemplando lo anterior, en este proyecto se propone desarrollar un sistema que pueda analizar la narrativa de un libro con fin de explorar la aplicación de LLMs para la identificación de personajes con sus características detalladas y la generación de libretos dependiendo del contexto que se ingrese en términos de ubicación, época, entre otros.
+	\IEEEPARstart{E}n la industria cinematográfica también se ha evidenciado el crecimiento de la revolución digital, aportando avances tecnológicos en la generación de productos visuales. Sin embargo, uno de los aspectos más fundamentales como la creación de personajes y la escritura de libretos sigue siendo muy manual.
+	
+	Dentro del entorno cinematográfico, los cortometrajes permiten brindar una visualización de entretenimiento en corto tiempo a los espectadores para dejar un mensaje o transmitir emociones a partir de una historia. Para la creación de un cortometraje, la caracterización y la creación de un libreto son fundamentales para construir historias memorables y cautivadoras. Los personajes bien definidos con sus características únicas son la base de cualquier narración. Por otro lado, la creación de libretos requiere tener un amplio dominio en escritura y el arte de generar historias de manera atractiva, lo que puede llevar mucho tiempo.
+	
+	Los Modelos de Lenguaje Largos o Extensos, de su traducción en sus siglas en inglés LLM (Language Large Models), han permitido evidenciar la capacidad potencial de generar texto o contenido para diferentes tareas. Contemplando lo anterior, en este proyecto se propone desarrollar un sistema que pueda analizar la narrativa del fragmento de un libro con el fin de explorar la aplicación de LLM para la identificación de personajes con sus características detalladas y la generación de libretos dependiendo del contexto que se ingrese en términos de ubicación, época, entre otros.
 	
 	% You must have at least 2 lines in the paragraph with the drop letter
 	% (should never be an issue)
@@ -591,15 +597,24 @@
 	
 	
 	\section{Planteamiento del problema}
-	El objetivo principal de este proyecto es desarrollar una solución innovadora que aproveche la potencia de los modelos de lenguaje grandes (LLM) para facilitar y agilizar dos tareas clave en la producción de cortometrajes: la caracterización de personajes y la generación de libretos para cortometrajes.
 	
-	En la etapa de preproducción de una obra, guion o cortometraje, la creación de personajes detallados y bien definidos es fundamental para construir una historia cautivadora y convincente. Sin embargo, este proceso suele ser laborioso y requerir una amplia investigación y esfuerzo creativo por parte de los guionistas y directores. Mediante la implementación de un modelo LLM especializado en caracterización de personajes, se busca automatizar y agilizar esta tarea, permitiendo la generación de descripciones detalladas y coherentes de personajes a partir de una breve entrada o premisa.
 	
-	Por otra parte, la escritura del libreto es una etapa crucial y desafiante en la producción cinematográfica. Requiere habilidades narrativas sólidas, conocimiento del formato específico de guiones y una gran inversión de tiempo. Al utilizar un modelo LLM entrenado específicamente para la generación de libretos, se pretende agilizar este proceso, brindando a los guionistas y directores una herramienta poderosa que les permita obtener borradores iniciales de libretos a partir de una idea o premisa básica.
+	En la etapa de preproducción de una obra, guion o cortometraje, la creación de personajes detallados y bien definidos es fundamental para construir una historia cautivadora y convincente. Sin embargo, este proceso suele ser laborioso y requerir una amplia investigación y esfuerzo creativo por parte de los guionistas y directores. Mediante la implementación de un modelo LLM especializado en caracterización de personajes, se busca automatizar y agilizar esta tarea, permitiendo la generación de descripciones detalladas y coherentes de personajes a partir de un fragmento de una narrativa corta.
 	
-	El proyecto contempla el desarrollo de dos modelos LLM separados, uno para cada tarea, con el fin de maximizar su eficacia y rendimiento. Estos modelos serán entrenados con conjuntos de datos específicos y relevantes para cada tarea, utilizando técnicas de aprendizaje supervisado.
+	Por otra parte, la escritura del libreto es una etapa crucial en la producción cinematográfica de cortometrajes. Requiere habilidades narrativas, conocimiento del formato de guiones y una gran inversión de tiempo. Al utilizar un modelo LLM entrenado específicamente para la generación de libretos, se pretende agilizar este proceso, brindando a los guionistas y directores una herramienta poderosa que les permita obtener borradores iniciales de libretos a partir de una idea.
 	
-	La implementación de estos modelos LLM en el flujo de trabajo de producción de cortometrajes tiene el potencial de ahorrar tiempo y recursos, al tiempo que fomenta la creatividad y la exploración de ideas. Los guionistas y directores podrán enfocarse en refinar y perfeccionar los resultados generados por los modelos, en lugar de dedicar largas horas a tareas repetitivas o de baja complejidad.
+	El objetivo principal de este proyecto es desarrollar una solución innovadora que aproveche la potencia de los modelos de lenguaje grandes (LLM) para facilitar y agilizar dos tareas clave en la producción de cortometrajes: la caracterización de personajes y la generación de libretos. Estos modelos serán entrenados con conjuntos de datos específicos y relevantes para cada tarea, utilizando técnicas de aprendizaje supervisado, buscando ahorrar tiempo y recursos.
+	\section{Marco Conceptual}
+	\subsection{Procesamiento de Leguaje Natural}
+	El PLN es un campo de la informática que se ocupa de la interacción entre las computadoras y el lenguaje humano. Se centra en el desarrollo de métodos para que las computadoras puedan comprender, procesar y generar lenguaje natural.
+	\subsection{Inteligencia Artificial}
+	Es una rama de la informática que se ocupa del desarrollo de sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el aprendizaje, la percepción, el razonamiento y la resolución de problemas. 
+	\subsection{LLM}
+	Los Modelos de Lenguaje Grandes (LLM, por sus siglas en inglés) son modelos de lenguaje entrenados en grandes cantidades de datos de texto, con millones o miles de millones de parámetros, lo que les permite capturar y representar relaciones complejas y sutilezas en el lenguaje natural
+	\subsection{Transformer}
+	El Transformer es una arquitectura de redes neuronales que se ha convertido en el estándar de facto para tareas de procesamiento de lenguaje natural, como la traducción automática, el resumen de texto y la generación de texto
+	\subsection{Fine Tunning}
+	El Fine-Tuning, o ajuste fino, es una técnica utilizada en el aprendizaje de transferencia, donde un modelo preentrenado se ajusta aún más en un conjunto de datos específico de la tarea objetivo, lo que permite adaptar el modelo a un dominio o tarea particular
 	\section{Metodología}
 	\subsection{Explorar LLMs}
 	Se necesita tener una vista general de la variedad de LLMs que se encuentran actualmente implementados y desplegados.
@@ -616,7 +631,15 @@
 	\end{itemize}
 	\subsection{Comparativa mediante ejercicios entre LLMs seleccionados}
 	Partiendo de las mismas entradas y con las mismas condiciones de hardware, identificar el que tenga mejor rendimiento en términos de tiempo pero, teniendo en cuenta la calidad de la salida.
-	\section{Definición de la idea}
+	\subsection{Herramientas}
+	\begin{itemize}
+		\item Lenguaje de programación: Python.
+		\item Bibliotecas: Hugging Face Transformers.
+		\item Modelos Preentrenados: T5.
+		\item Entorno: GoogleColab.
+		\item Control de Versiones: Git y GitHub.
+	\end{itemize}
+	
 	\section{LLMs identificados}
 	\begin{itemize}
 		\item GTP-1
@@ -639,7 +662,7 @@
 	\section{Comparativa mediante ejercicios entre LLMs seleccionados }
 	\section{Fuentes de datos seleccionados}
 	\begin{itemize}
-		\item Libros de cuentos y relatos cortos: Los libros de cuentos y relatos cortos son una fuente excelente de fragmentos narrativos concisos y autosuficientes, que podrían servir como base para desarrollar cortometrajes. Algunos ejemplos son los cuentos de Edgar Allan Poe, Anton Chéjov, Jorge Luis Borges, entre otros.
+		\item Libros de cuentos y relatos cortos: Los libros de cuentos y relatos cortos son una fuente viable de fragmentos narrativos concisos, que podrían servir como base para desarrollar cortometrajes. Algunos ejemplos son los cuentos de Edgar Allan Poe, Anton Chéjov, Jorge Luis Borges, entre otros.
 		\item Antologías de historias cortas: Las antologías recopilan historias cortas de diversos autores y géneros, lo que te brindaría una amplia variedad de estilos y temáticas para trabajar.
 		\item Novelas cortas: Las novelas cortas, también conocidas como "novellas", son obras narrativas más extensas que un cuento, pero más breves que una novela completa. Podrías extraer fragmentos o capítulos completos de estas obras.
 		\item Obras de teatro de un acto: Las obras de teatro de un acto, al ser más cortas y condensadas, son una excelente fuente de diálogos y tramas compactas que podrían adaptarse fácilmente a cortometrajes.
@@ -647,8 +670,11 @@
 		\item Sitios web y plataformas de escritura creativa: Algunas plataformas en línea, como Wattpad, Inkitt o WritingPrompts, albergan historias cortas, relatos y escritos creativos de autores emergentes. Estos podrían ser una fuente interesante de material.
 	\end{itemize}
 	\section{Hallazgos}
+	
 	\section{Conclusión}
 	The conclusion goes here.
+	
+	\section{Bilbliografia}
 	
 	
 	
