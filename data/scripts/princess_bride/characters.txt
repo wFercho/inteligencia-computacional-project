@@ -1,0 +1,15 @@
+### Input:
+Character Descriptions:
+- The Kid: A sick child, pale, about seven or eight or nine years old.
+- The Kid's Mother: Worried but composed, tends to her sick child.
+- The Kid's Grandfather: Rumpled but with bright eyes, brings a book as a present.
+- Buttercup: In her late teens, not very concerned with her appearance, the most beautiful woman in the world.
+- Westley: Handsome, older than Buttercup, loves her deeply.
+- Prince Humperdinck: A man of incredible power and bearing.
+- Count Rugen: A dark-bearded man, matches Prince Humperdinck in strength.
+- Vizzini: A tiny man with an angelic face, Sicilian, leader of the trio.
+- Inigo Montoya: A Spaniard, erect and taut as a blade of steel.
+- Fezzik: A giant, companion of Vizzini and Inigo.
+- King: Aging monarch of Florin.
+- Queen: Aging monarch of Florin.
+

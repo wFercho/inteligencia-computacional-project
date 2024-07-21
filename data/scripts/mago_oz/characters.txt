@@ -1,0 +1,9 @@
+### Input:
+Character Descriptions:
+- Dorothy: Una joven valiente y decidida, siempre preocupada por su perro Toto y con un gran deseo de aventura.
+- Aunt Em: Tía de Dorothy, trabaja duro en la granja y trata de mantener todo en orden, aunque a veces parece estricta.
+- Uncle Henry: Tío de Dorothy, también trabaja en la granja, es más relajado que Aunt Em, pero también está preocupado por el bienestar de la familia.
+- Zeke: Un trabajador de la granja, siempre dispuesto a ayudar, aunque puede ser torpe a veces.
+- Hunk: Otro trabajador de la granja, es práctico y siempre está tratando de solucionar problemas, aunque puede ser un poco rudo.
+- Hickory: Trabajador de la granja, es el inventor del grupo, siempre tratando de crear algo nuevo para mejorar las condiciones en la granja.
+- Miss Gulch: Vecina antipática que tiene problemas con el perro de Dorothy, es muy estricta y autoritaria.

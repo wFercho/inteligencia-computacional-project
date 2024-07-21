@@ -1,0 +1,42 @@
+### Input:
+Character Descriptions:
+- John: A brave astronaut with a mysterious past.
+- Emily: A skilled engineer who loves challenges.
+- Max: A young and eager scientist with a knack for solving puzzles.
+
+### Output:
+EXT. SPACE STATION - DAY
+
+JOHN:
+(to Emily)
+Are all the systems ready for the test run?
+
+EMILY:
+(nodding)
+Yes, but we need to be careful. This experiment has never been done in space.
+
+MAX:
+(excitedly)
+I double-checked the calculations. We're good to go!
+
+### Input:
+Character Descriptions:
+- Alex: A seasoned detective with a sharp mind.
+- Sarah: A tech-savvy hacker with a rebellious streak.
+- Mike: A street-smart informant with connections all over the city.
+
+### Output:
+EXT. CITY ALLEY - NIGHT
+
+ALEX:
+(to Sarah)
+Did you manage to decrypt the files?
+
+SARAH:
+(smiling)
+Piece of cake. The information we need is all here.
+
+MIKE:
+(looking around nervously)
+We need to move. This place isn’t safe.
+

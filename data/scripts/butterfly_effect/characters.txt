@@ -1,0 +1,12 @@
+### Input:
+Character Descriptions:
+
+- Evan: Protagonist who experiences various timelines and events. He is determined, often struggling with his fate and the impact of his actions on others.
+- Kayleigh: Close friend of Evan, supportive and caring, but has a complicated past.
+- Lenny: Friend of Evan, tends to be more hesitant and anxious, often influenced by stronger personalities.
+- Tommy: Initially antagonistic, later shows a more complex character with a focus on redemption.
+- Andrea: Evan's mother, caring but overwhelmed by Evan's condition and the events surrounding him.
+- Jason: Evan's father, appears haggard and mentally unstable, his actions are driven by a deeper understanding of the timelines.
+- Dr. Redfield: A doctor involved in Evan's treatment, persistent and focused on Evan's recovery.
+- Carlos: Fellow inmate, skeptical of Evan but becomes intrigued by his claims.
+- Mr. Miller: George Miller, a seemingly kind man who reveals a more sinister side.

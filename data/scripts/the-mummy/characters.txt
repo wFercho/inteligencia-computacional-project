@@ -1,0 +1,14 @@
+### Input:
+Character Descriptions:
+- Narrator: A narrator with a very marked Egyptian accent.
+- Pharaoh Seti: An aristocratic and virile man.
+- Imhotep: A muscular and handsome man with intense, evil eyes, High Priest of Osiris.
+- Anck-su-namun: An olive-skinned goddess, lover of the Pharaoh.
+- Priests: Bald and tattooed men, priests of Osiris, subordinates of Imhotep.
+- Mumia: Men with blue-dyed skin and puzzle-shaped tattoos, guards of the Pharaoh.
+- Nubian Slaves: Nubian slaves carrying Anck-su-namun's mummy.
+- Egyptian Soldiers: Egyptian soldiers guarding the burial place.
+- Embalmers: Embalmers with jackal heads performing horrific procedures.
+- Rick O'Connell: A handsome and brave hero, member of the French Foreign Legion.
+- Beni: A small, chubby Frenchman, companion of O'Connell.
+

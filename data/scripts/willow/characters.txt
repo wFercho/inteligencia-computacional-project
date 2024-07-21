@@ -1,0 +1,11 @@
+### Input:
+Character Descriptions:
+- Willow: A brave and resourceful Nelwyn who is on a quest to protect the baby Elora Danan.
+- Madmartigan: A rogue swordsman who becomes an unlikely hero and ally to Willow.
+- Raziel: A druid sorceress who was transformed into an animal by Queen Bavmorda.
+- Cherlindrea: The Fairy Queen, a magical and powerful being who guides Willow.
+- Rool: A mischievous brownie who accompanies Willow on his journey.
+- Teemo: Another brownie, loyal and often the voice of reason among the brownies.
+- Queen Bavmorda: The evil queen who seeks to destroy Elora Danan to prevent her own downfall.
+- The Mother: A desperate woman trying to save her baby from Queen Bavmorda's forces.
+- Ethna: A compassionate woman who helps the mother by hiding her baby.
