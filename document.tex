@@ -20,10 +20,9 @@
 	\maketitle
 	
 	
-	%\begin{abstract}
-		%The abstract goes here.
-	%\end{abstract}
-	
+\begin{abstract}
+		El siguiente proyecto presenta el análisis de modelos LLMs para realizar las dos tareas fundamentales en para la la elaboración de cortometrajes, la caracterización de personajes de manera detallada y la generación de un libreto, lo anterior mediante la  aplicación de dos modelos LLM que permitan solventar las actividades respectivamente. Para llevar acabo la ejecución de este trabajo, se realiza a exploración de documentación acerca de los modelos LLM generadores de texto ya existentes que pueden ser aplicados o modificados de la manera mas adecuada para el desarrollo de los objetivos de la dos tareas, por medio de uso de herramientas como librerías que sean de utilidad en el proceso diseño, implementación y entrenamiento de los modelos LLMs.
+	\end{abstract}
 	
 	
 	% Note that keywords are not normally used for peerreview papers.
@@ -37,11 +36,11 @@
 	
 	\section{Introducción}
 
-	\IEEEPARstart{E}n la industria cinematográfica también se ha evidenciado el crecimiento de la revolución digital, aportando avances tecnológicos en la generación de productos visuales. Sin embargo, uno de los aspectos más fundamentales como la creación de personajes y la escritura de libretos sigue siendo muy manual.
+	\IEEEPARstart{E}n la industria cinematográfica también se ha evidenciado el crecimiento de la revolución digital, aportando avances tecnológicos en la generación de productos visuales \cite{article-1}. Sin embargo, uno de los aspectos más fundamentales como la creación de personajes y la escritura de libretos sigue siendo muy manual.
 	
 	Dentro del entorno cinematográfico, los cortometrajes permiten brindar una visualización de entretenimiento en corto tiempo a los espectadores para dejar un mensaje o transmitir emociones a partir de una historia. Para la creación de un cortometraje, la caracterización y la creación de un libreto son fundamentales para construir historias memorables y cautivadoras. Los personajes bien definidos con sus características únicas son la base de cualquier narración. Por otro lado, la creación de libretos requiere tener un amplio dominio en escritura y el arte de generar historias de manera atractiva, lo que puede llevar mucho tiempo.
 	
-	Los Modelos de Lenguaje Largos o Extensos, de su traducción en sus siglas en inglés LLM (Language Large Models), han permitido evidenciar la capacidad potencial de generar texto o contenido para diferentes tareas \cite{reference1}. Contemplando lo anterior, en este proyecto se propone desarrollar un sistema que pueda analizar la narrativa del fragmento de un libro con el fin de explorar la aplicación de LLM para la identificación de personajes con sus características detalladas y la generación de libretos dependiendo del contexto que se ingrese en términos de ubicación, época, entre otros.
+	Los Modelos de Lenguaje Largos o Extensos, de su traducción en sus siglas en inglés LLM (Language Large Models), han permitido evidenciar la capacidad potencial de generar texto o contenido para diferentes tareas \cite{reference1}. Contemplando lo anterior, en este proyecto se propone desarrollar un sistema que pueda analizar la narrativa del fragmento de un libro con el fin de explorar la aplicación de LLM\cite{reference2} para la identificación de personajes con sus características detalladas y la generación de libretos dependiendo del contexto que se ingrese en términos de ubicación, época, entre otros.
 
 	
 	\section{Planteamiento del problema}
@@ -64,6 +63,13 @@
 	\subsection{Fine Tunning}
 	El Fine-Tuning, o ajuste fino, es una técnica utilizada en el aprendizaje de transferencia, donde un modelo preentrenado se ajusta aún más en un conjunto de datos específico de la tarea objetivo, lo que permite adaptar el modelo a un dominio o tarea particular
 	\section{Metodología}
+		\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.5]{metodologia}
+		\caption{Metodología planteada}
+		\small
+		%Fuente: Autor
+	\end{figure}
 	\subsection{Explorar LLMs}
 	Se necesita tener una vista general de la variedad de LLMs que se encuentran actualmente implementados y desplegados.
 	\subsection{Explorar documentación de los LLMs}
@@ -83,7 +89,7 @@
 	\begin{itemize}
 		\item Lenguaje de programación: Python.
 		\item Bibliotecas: Hugging Face Transformers.
-		\item Modelos Preentrenados: T5.
+		\item Modelos Preentrenados: T5, GPT-Neo.
 		\item Entorno: GoogleColab.
 		\item Control de Versiones: Git y GitHub.
 		\item Pypdf: Librería para extraer texto de PDFs
@@ -141,14 +147,15 @@
 	\end{tabular}
 	\caption{Capacidad de Tokenización, Tipo y Número de Parámetros de LLMs identificados}
 	\label{tab:tokenization}
+	Fuente: Autor
 \end{table}
 	\section{LLMs seleccionados}
 	\subsection{GPT-Neo}
-	"Hace 6 años, estaba volando sobre el desierto del Sahara y se estropeó el motor de mi avión. Estaba completamente solo"\ref{table:1}.
+	%"Hace 6 años, estaba volando sobre el desierto del Sahara y se estropeó el motor de mi avión. Estaba completamente solo"\ref{table:1}.
 	\begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{gptneo_1}
-	\caption{Ejemplo GPT-Neo}
+	\caption{Ejemplo prompt capacidad creativa de GPT-Neo }
 	\small
 	\label{table:1}
 	%Fuente: Autor
@@ -156,7 +163,7 @@
 	\begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{gptneo_2}
-	\caption{Ejemplo GPT-Neo}
+	\caption{Ejemplo capacidad creativa de GTP-Neo}
 	\small
 	%Fuente: Autor
 \end{figure}
@@ -164,7 +171,7 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.5]{t5test1}
-		\caption{Ejemplo caracterizacion de personajes T5.}
+		\caption{Ejemplo caracterización de personajes T5.}
 		\small
 %Fuente: Autor
 	\end{figure}
@@ -217,11 +224,15 @@
 		\item Sitios web y plataformas de escritura creativa: Algunas plataformas en línea, como Wattpad, Inkitt o WritingPrompts, albergan historias cortas, relatos y escritos creativos de autores emergentes. Estos podrían ser una fuente interesante de material.
 	\end{itemize}
 	\section{Hallazgos}
-	Existen diferentes opciones de LLMs, particularmente de código y uso libre. Pero es evidente que las herramientas que mejor rendimiento y calidad de salida tienen son las que tienen costo por su uso, específicamente GPT-4 realiza exitosamente la tarea de identificar, caracterizar y clasificar personajes.
-	Dentro de la capa gratuita de GPT-4 podemos obtener datos de la identificación, caracterización y clasificación de personajes para el LLM seleccionado.
+	Existen diferentes opciones de LLMs, particularmente de código y uso libre. Se evidenció que los modelos que mejor rendimiento y calidad de salida muestran son los que tienen costo por su uso, específicamente GPT-4 realiza exitosamente la tarea de identificar, caracterizar y clasificar personajes.
+	Dentro de la capa gratuita de GPT-4 podemos obtener datos de la identificación, caracterización y clasificación de personajes a partir de un libro seleccionado. Lo anterior puede ser usado como fuente de información para el proceso de entrenamiento del LLM seleccionado.
 	\section{Conclusión}
-	Partiendo de los aspectos generales de los LLMs identificados,  descartamos los que tuvieran asociado un costo para su uso. Además se identificó y seleccionó el LLMs que provee una mayor capacidad de tokenización, siendo en este caso GPT-Neo.
-	
+	\begin{itemize}
+		\item Partiendo de los aspectos generales de los LLMs identificados,  descartamos los que tuvieran asociado un costo para su uso.
+		\item  Se identificó y seleccionó el LLM que provee una mayor capacidad de tokenización, siendo en este caso GPT-Neo.
+		\item Respecto a los recursos de hardware, se optará por priorizar el uso de Google Colab, que en su capa más básica ofrece 12GB de RAM y  130GB de almacenamiento en disco duro.
+		\item Podemos aprovechar la capa gratuita de modelos ya desplegados como fuente de datos para el entrenamiento del modelo.
+	\end{itemize}
 	\section{Bibliografía}
 		\renewcommand\refname{Referencias}
 	\bibliographystyle{apalike}

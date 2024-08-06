@@ -3,46 +3,48 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: document.aux
 The style file: apalike.bst
 Database file #1: ./references.bib
+Warning--empty journal in article-1
+Warning--empty journal in reference2
 Warning--empty journal in reference1
-You've used 1 entry,
+You've used 3 entries,
             1935 wiz_defined-function locations,
-            475 strings with 4016 characters,
-and the built_in function-call counts, 595 in all, are:
-= -- 45
-> -- 58
+            482 strings with 4496 characters,
+and the built_in function-call counts, 1348 in all, are:
+= -- 109
+> -- 109
 < -- 0
-+ -- 22
-- -- 22
-* -- 60
-:= -- 117
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 16
-chr.to.int$ -- 1
-cite$ -- 2
-duplicate$ -- 13
-empty$ -- 21
-format.name$ -- 23
-if$ -- 101
++ -- 40
+- -- 40
+* -- 128
+:= -- 259
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 35
+chr.to.int$ -- 3
+cite$ -- 6
+duplicate$ -- 39
+empty$ -- 61
+format.name$ -- 43
+if$ -- 236
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 1
-newline$ -- 7
-num.names$ -- 3
-pop$ -- 18
+missing$ -- 3
+newline$ -- 15
+num.names$ -- 9
+pop$ -- 41
 preamble$ -- 1
-purify$ -- 16
+purify$ -- 35
 quote$ -- 0
-skip$ -- 11
+skip$ -- 31
 stack$ -- 0
-substring$ -- 12
+substring$ -- 36
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 1
-while$ -- 2
+type$ -- 18
+warning$ -- 3
+while$ -- 6
 width$ -- 0
-write$ -- 12
-(There was 1 warning)
+write$ -- 32
+(There were 3 warnings)

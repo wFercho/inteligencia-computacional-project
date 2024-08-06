@@ -1,0 +1,12 @@
+### Input:
+Character Descriptions:
+- Blix: A brigand goblin hunter. Clad in decrepit armor and slung with savage weapons, he is a terrifying figure.
+- Pox: A pig-faced fop wearing tattered lace and filthy brocade.
+- Blunder: Tiny goblin masked by a grotesque helmet.
+- Tic: Tiny goblin masked by a grotesque helmet.
+- Hairy Meg Mucklebones: A huge and hideous water hag, half corpse, half serpent.
+- Lili: A young princess, beautiful, fresh, and innocent, wearing splendid brocades and carrying a bouquet wrapped in a lace napkin.
+- Woodcarver's Wife: An industrious woman, protective of her household, wary of faeries.
+- Woodcarver: Sleeps by his bench surrounded by wood-shavings and roughed-out toys.
+- Darkness: A huge horned figure draped in black cloth, embodying evil and commanding the goblins.
+
